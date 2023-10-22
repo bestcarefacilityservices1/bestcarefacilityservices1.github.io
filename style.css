@@ -1,0 +1,418 @@
+.image-class{
+    height: 30px;
+    width: 6pc;
+    border-radius: 2px;
+    margin-right: 9px;
+    margin-top: 3px;
+}
+
+nav{
+    background-image: linear-gradient(to right, rgb(236, 72, 153), rgb(239, 68, 68), rgb(234, 179, 8));
+    color: #fff;
+    position: sticky;
+}
+
+.navo li a{
+    color: #fff;
+    font-size: 18px ;
+    font-weight: 400;
+    font-family: cursive;
+}
+
+.navo li a:hover{
+    color: blueviolet;
+}
+
+.dropz{
+    background-image: linear-gradient(to right, rgb(236, 72, 153), rgb(239, 68, 68), rgb(234, 179, 8));
+    color: black;
+}
+
+
+.content-section{
+    background-image: linear-gradient(to right top, rgb(139 , 92 , 246), rgb(253 , 186 , 116));
+    min-height: 100vh;
+    position: relative;
+}
+
+@media (max-width:1200px) and (min-width: 480px ) {
+    .content-section{
+        min-height: 110vh;
+    }
+}
+
+.slider-section{
+    display: inline-block;
+    max-width: calc(80em - 20em);
+    max-height: calc(80vh - 40vh);
+    justify-content: center;
+    align-items: center;
+}
+
+.box-section{
+    position: absolute;
+    margin: 2em;
+    background-color: rgba(0,0,0,0.54);
+    padding: 20px;
+    color: #fff;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+}
+
+.carousel-caption h5, .carousel-caption p{
+    color: salmon;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 23px;
+}
+.button-align{
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px auto;
+    left: 50%;
+    right: 50%;
+
+}
+
+.carousel{
+    margin: 20px 20px;
+    box-shadow: 20px solid black;
+}
+
+.carousel-slide{
+    max-height: 2rem;
+}
+
+.content-section .hover-class:hover{
+    background-image: linear-gradient(to right top, rgb(139 , 92 , 246), rgb(253 , 186 , 116));
+    border-radius: 25px;
+    border: 2px solid beige;
+    transition: all 2s ease-in-out;
+}
+
+.about-section{
+    background-image: linear-gradient(to right top,  rgb(253 , 186 , 116), rgb(139 , 92 , 246));
+}
+
+.about-section h1{
+    text-align: left;
+    text-decoration: dotted;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 2.5rem;
+
+}
+
+.about-section h6{
+    font-family: cursive;
+}
+
+
+.about-section .acc button{
+    background-image: linear-gradient(to right, rgb(147, 197, 243), rgb(187, 247, 208), rgb(253, 171, 140));
+}
+
+.gradient1{
+    background-image: linear-gradient(to right, rgb(199,210,254) , rgb(254,202,202) , rgb(254,249,195));
+    min-height: 100vh;
+}
+
+/* */
+
+
+.gradient1 ul li a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 23px;
+    border: 2px solid black;
+    padding: 15px;
+    display: inline-block;
+    list-style: none;
+}
+
+.gradient1 ul li a:hover{
+    background: linear-gradient(to right, rgb(165, 210, 254), rgb(192, 132, 252));
+    color: #f8f8f8;
+    font-family:cursive;
+    font-weight: bolder;
+    font-size: larger;
+    box-shadow: 20px solid black;
+    backdrop-filter: blur(2px);
+    transition: all 1 ease-in;
+}
+
+.gradient1 ul{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+
+.gradient1 h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font: bolder;
+    font-size: 50px;
+    padding: 20px 20px;
+}
+
+.house, .sec{
+
+    background-image: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+}
+.footer{
+    background-image: linear-gradient(to right, #141e30, #243b55)
+}
+
+.sec{
+    flex-grow: 1;
+}
+
+@media (min-width: 375px) and (max-width: 1200px) {
+    .sec img{
+        border: 2px;
+        padding: 10px;
+        border-radius: 20%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .card-text p{
+        padding: 1.5rem;
+    }
+
+    #security .sec .heading-element{
+        text-shadow: 2.5ch solid darkgrey;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #security .sec .heading-element:hover{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: larger;
+        font-style: normal;
+        font-weight: 600;
+        background-image: url();
+    }
+    
+}
+
+.house .card-body ul li, 
+.house .card-text ul li{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text-xl{
+    font-size: 45px;
+    padding: 10px;
+    margin: 10px 10px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sec .card-body p, .sec .card-text p{
+    text-transform: capitalize;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.sec .card-text p{
+    padding: 10px;
+}
+
+.sec img ,.house img{
+    padding: 35px;
+    border-radius: 35em;
+}
+
+.sec .card-text h1{
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    gap: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#Sec_extra{
+    min-height: 100vh;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    backdrop-filter: blur(80px);
+}
+
+.house .card-text h1{
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    gap: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.house .card-text p{
+    padding: 10px;
+
+}
+
+.house .card-body p, .house .card-text p{
+    text-transform: capitalize;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer{
+    height: 70vh;
+}
+
+.scroller{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.carousel-item img{
+    width: 100%;
+}
+
+.footer{
+    text-align: center;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: #fff;
+
+}
+
+.footer ul li{
+    list-style: none;
+}
+
+
+
+.footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.footer ul li a:hover{
+    font-size: 16px;
+    color: #999;
+    transition: .5s all ease-in;
+}
+
+.pad{
+    background-image: linear-gradient( right top, rgb(139 , 92 , 246), rgb(253 , 186 , 116));
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.seperate-elements{
+    background-image: linear-gradient( right top, rgb(139 , 92 , 246), rgb(253 , 186 , 116));
+}
+
+.carousel-item img{
+    max-height: 200px;
+}
+
+.footer-h2{
+    padding-top: 3rem;
+}
+
+.footer-h2:after{
+    content: "";
+    width: 80px;
+    height: 60px;
+    background-color: lightblue;
+    position: absolute;
+    left: 20%;
+    right: 90%;
+    transform: translate(50%, -50%);
+    filter: blur(20px);
+}
+
+.footer-h2:before{
+    content: "";
+    width: 80px;
+    height: 60px;
+    background-color: lightcoral;
+    position: absolute;
+    left: 80%;
+    right: 20%;
+    transform: translate(-50%, 50%);
+    filter: blur(20px);
+}
+
+.other-ref:before{
+    content: "";
+    width: 80px;
+    height: 60px;
+    background-color: lightgoldenrodyellow;
+    position: absolute;
+    left: 80%;
+    right: 20%;
+    transform: translate(-50%, 50%);
+    filter: blur(20px);
+}
+
+.other-ref:after{
+    content: "";
+    width: 80px;
+    height: 60px;
+    background-color: lightgreen;
+    position: absolute;
+    left: 10%;
+    right: 90%;
+    transform: translate(50%, -50%);
+    filter: blur(20px);
+}
+
+.contact-info p{
+    text-align: center;
+    color: cornsilk;
+    font-size: large;
+}
+
+.contact-info p a{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+.contact-info p a:hover{
+    color: lightcoral;
+    font-size: 25px;
+    transition: .8s all ease-in;
+}
+
+.contact-info .contact-detail:hover{
+    font-size: 25px;
+    color: lightcoral;
+    transition: .8s all ease-in;
+}

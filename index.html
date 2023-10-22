@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="favicon" href="../assets/Logo.jpg">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./animate.css">
+    <link rel="stylesheet" href="./bootstrap-grid.css">
+    <style>
+      .grad{
+    padding: 30px 10px;
+    background-image: linear-gradient(to right top, rgb(139 , 92 , 246), rgb(253 , 186 , 116));
+    
+}
+
+.card{
+    background-image: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+    padding: 20px 10px;
+    border: 20px 30px;
+}
+.card-img{
+    border-radius: 20px;
+}
+.card .card-title, .card .card-subtitle{
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.card .card-title{
+    margin-top: 1rem;
+    font-size: 35px;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+.card .card-text, .card .card-body{
+    font-family: cursive;
+    font-size: 1rem;
+}
+
+.card-text{
+    padding: 0px 20px;
+}
+
+.row{
+    margin-bottom: 20px;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary animate__animated animate__bounceIn">
+        <div class="container-fluid">
+            <span class="flex"><img src="../assets/Logo.jpg" alt="logo" class=" d-inline-block align-text-top image-class">
+            </span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 navo">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu dropz">
+                  <li><a class="dropdown-item" href="#house">House Keeping</a></li>
+                  <li><a class="dropdown-item" href="#security">Security</a></li>
+                  <li><a href="#plum" scroll="smooth" class="dropdown-item">Plumbing</a>
+                  <li><a class="dropdown-item" href="#elec" scroll="smooth">Electrician</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true" href="#footer">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <section class="content-section">
+            
+        <div class="box-section animate__animated animate__bounceIn">
+      <h1>Best Care Facility Services</h1>
+      <div class="box-for">    
+      <div class="box-to">
+      <p>A service providing platform which provides services like House Keeping,  Security Services and Building Maintenance with Quality Service Providing</p>
+  </div></div>
+
+   
+<div class="container car" ondragenter="AnimationEffect">
+  <div id="carouselExampleCaptions" class="carousel slide" style="max-width: 1200px; max-height: 400px;">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../assets/disinfecting-home.jpg" class="d-block w-100 img-fluid" style="max-height: 400px; overflow: hidden;" alt="House Keeping">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Housing Services</h5>
+          <p>Best Care Facility Services providing House Keeping service. In our team, we have well expeienced housekeeping persons & supervisors</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/portrait-male-security-guard-with-barbed-wire-fence.jpg" class="d-block w-100 img-fluid" alt="..." style="max-height: 400px; overflow: hidden;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Security Services</h5>
+          <p>Best Care Facility Services offers top-quality housekeeping services with experienced professionals who ensure a pristine home without any damage</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/male-electrician-works-switchboard-with-electrical-connecting-cable.jpg" class="d-block w-100 img-fluid" alt="Electrician" style="max-height: 400px; overflow: hidden;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Electricians</h5>
+          <p>Electricity is an essential component of any modern building. When electrical issues arise, it's crucial to have a reliable and experienced electrician you can count on.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/service-maintenance-worker-repairing.jpg" class="d-block w-100 img-fluid" alt="..." style="max-height: 400px; ">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Plumbing Services</h5>
+          <p>lumbing issues can disrupt your daily life and cause damage to your property. Our plumbing services are here to help you keep your water systems running smoothly, whether it's in your home or commercial space.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+      <button type="button" class="btn btn-lg btn-danger hover-class button-align" data-bs-toggle="popover" data-bs-title="BFS COMPANY" data-bs-content="There are Several Services that are provided by the BFS including the House Keeping, Security Services, Plumbing, Office Cleaning, Electrical Maintenance [Electricians] well trained and presented for better human resource 👍 "><a href="#about"></a> Explore 📭</button>
+</div></div>
+</section>
+
+
+<section class="about-holder">
+
+<div class="card about-section" id="about" scroll="smooth">
+    <div class="card-body">
+      <h1 class="card-title">About US</h1>
+      <h6 class="card-subtitle mb-2 text-body-secondary">BFS One Of the Top Facility Services</h6>
+      <p class="card-text">We are one of the biggest and leading with prominent facility services organizations ni Chennai, <strong>since 2013</strong>. We have pioneered the concepts of facility management system with BFS team created with privatel staffing, outsourcing & HR service agency having local business and industry's specific demands. Our <em style="font-size: 1.8em;">entrepreneurial</em> creativity of locally owned p[artnerships makes us the world's premeier executiev staffing & recruitment organization to <b>serve clients all across the city</b>.</p>
+      <p class="card-body">
+        Combined with our methodology and work ethics, which has helped the jobs done quickly and efficiently, our reputation has established us at the forefront in the field of global executive search
+      </p>
+      <div id="holding">
+      <div class="accordion accordion-flush acc" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Our Vision
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">We aim to emerge as the strogest organization for an ethical business approach. Another very important facet is to achieve the corporate supremacy by providing incomparable services to our clients</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Our Mission
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">We aim to acquire a global recognition in the corporate world, establishing it as one of the most trusted name for eminenet manpower & stuffing services. Our sole objective is to set a new benchmark by presenting a competitive, quality focused and result driven human capital service</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Offered Services
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><ul>
+                <li>House Keeping</li>
+                <li>Security Services / CCTV Operations / Safety Operations</li>
+                <li>Building Maintenance / Electrical Maintenance / Mechanical / Carpenting / plumbing / Pest Control / Service Apartment Maintenance</li>
+                <li>Boiler Maintenance / Cafeteria service / Operator / Captain / Dishwash Cleaning / waiter / sand other services required by the client will be provided at minimal cost with quality</li>
+                
+            </ul></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="services">
+    <div class="gradient1">
+        <div class="cont">
+<h1 class="providing-services-header text-3xl" id="services">Available Services</h1>
+<ul class="services-tab">
+    
+    <li><a href="#housekeeping" class="button">House Keeping</a></li>
+    <li><a href="#techsupport" class="button">Technical Support</a></li>
+    <li><a href="#cleaningserv" class="button">Cleaning services</a></li>
+    <li><a href="#wholebuild" class="button">Whole Building Maintenance</a></li>
+    <li><a href="#plumbing" class="button">Plumbing Services</a></li>
+    <li><a href="#security" class="button">Security Services</a></li>
+</ul>
+</div></div>
+</div>
+
+<div class="container-fluid grad">
+  <div class="grid">
+      <div class="row">
+          <div class="card col-12 col-lg-4">
+              <img src="../assets/corporate-housekeeping-services-250x250.webp" alt="house_keeping image" class="card-img img-fluid">
+              <h1 class="card-title text-xl ">House Keeping</h1>
+              <h3 class="card-subtitle">By <b>B</b>est <b>C</b>are <b>F</b>acility <b>S</b>ervices</h3>
+          
+              <div class="card-body">
+                  <p>
+                      Best Care Facility Services providing House Keeping service. In our team, we have well expeienced housekeeping persons & supervisors. hey knwo how to clean your home without any damage of things. We are using kids &pet friendly equipments for house keeping. We are actually using quality chemicals for cleaning. In our Modern soceity, we want to maintain our environment clean to avoid infections, Round the clock our customer service team waiting for your valuable call..
+                  </p>
+              </div>
+              <div class="card-text">
+                  <h2 class="p-3">For Corporate Companies</h2>
+                  <ul>
+                      <li>House Keeping</li>
+                      <li>Hospitality</li>
+                      <li>Landscape</li>
+                      <li>Electrical and Plumbing</li>
+                      <li>Security & Surveillance Team</li>
+                      <li>Whole Building Maintenance</li>
+                  </ul>
+              </div>
+              <div class="card-text">
+                  <h2 class="p-3">For Home & Apartments Cleaning:</h2>
+                  <ul>
+                      <li>Living Room</li>
+                      <li>Kitchen</li>
+                      <li>Rest Room</li>
+                      <li>Bed Room</li>
+                      <li>Balcony</li>
+                      <li>Corridor</li>
+                      <li>Entrance</li>
+                      <li>Glass Doors & Glass Windows</li>
+                      <li>Swimming pool Maintenance</li>
+                      <li>Club House & Gym Maintenance</li>
+                  </ul>
+              </div>
+              <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Learn More</button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+<div class="offcanvas-header">
+  <h5 class="offcanvas-title" id="offcanvasRightLabel">House Keeping</h5>
+  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+    Best Care Facility Services offers top-quality housekeeping services with experienced professionals who ensure a pristine home without any damage. We prioritize safety with kid and pet-friendly equipment and use high-quality cleaning chemicals. Our 24/7 customer service team is ready to assist you. For corporate companies, we provide services in housekeeping, hospitality, landscape, electrical and plumbing, security and surveillance, and whole building maintenance. For home and apartment cleaning, we cover living rooms, kitchens, restrooms, bedrooms, balconies, corridors, entrances, glass doors and windows, as well as swimming pool, club house, and gym maintenance. Choose us for a clean, safe, and comfortable environment.
+</div>
+<div class="dropdown mt-3">
+  <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+    Navigator
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Home</a></li>
+    <li><a class="dropdown-item" href="#about">About</a></li>
+    <li><a class="dropdown-item" href="#contact">Contact</a></li>
+  </ul>
+</div>
+</div>
+</div>
+     
+      
+          
+      <div class="card col-12 col-lg-4" id="security">
+          <img src="../assets/Security-Guards.jpg" alt="Security image" class="card-img sec_img">
+          <h1 class="card-title">Security Services</h1>
+          <h3 class="card-subtitle">By <b>B</b>est <b>C</b>are <b>F</b>acility <b>S</b>ervices</h3>
+              
+                  <p class="card-body">
+                      Best Care Facility Services provides Security Service all over Chennai, Kadambathur, Thiruvallur and many more. We also have dynamic , energetic and experienced executives. We consist of voluntary retired Army, Navy, Air Force and other uniformed service candidates. Our security personal are being profesionally trained and tehnically developed to secure our clients position as intent by eeping Best Care Facility Services efort.
+                  </p>
+              <div class="card-text">
+                  <h2 class="p-3">Surveillance</h2>
+                  <p>In City Life, We are not living safe because, Crimials and crime level have been inreasing exponentially. So we want to atch every person/ group who visit the home or woking sites. survellaince camera are helping us 24/7 monitoring It's covering inside, outside areas, terrace, garden area, streets etc., Best care Facility Services ofers you surveillance camera also, as per your requirements, Best Care Facility Services uncompromise quantity for their valuable clients</p>
+          </div>
+
+          <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+              Learn More
+            </button>
+            
+            <div class="offcanvas offcanvas-start bg-gradient-to-br from-indigo-300 via-blue-300 to-sky-300" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <h1 class="offcanvas-title text-center justify-center" id="offcanvasExampleLabel">Security Services</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                  <div class="card card-body" id="Sec_extra">
+                      In the urban landscape, the safety of city dwellers has become a growing concern due to the alarming rise in criminal activities. To address this issue effectively, there is a compelling need for comprehensive surveillance and monitoring of individuals and groups visiting residential and work sites. Surveillance cameras have emerged as indispensable tools, tirelessly operating 24/7 to encompass various critical areas, both interior and exterior, such as terraces, gardens, and even public streets.
+                  
+                      At Best Care Facility Services, we understand the gravity of this security challenge, and we are fully equipped to provide tailor-made surveillance solutions that align with your unique requirements. We are unwavering in our commitment to deliver superior quality and unwavering dedication to our valued clientele.
+                      
+                      Our extensive range of services extends to not only Chennai but also Kadambathur, Thiruvallur, and various other regions. What sets us apart is the exemplary team we've assembled. Our dynamic and energetic professionals include experienced executives, many of whom hail from voluntary retired positions within the Army, Navy, Air Force, and other uniformed services. We take great pride in the expertise and dedication of our security personnel, who undergo rigorous professional training and continuous technical development to safeguard the interests and objectives of our clients, in line with the mission and vision of Best Care Facility Services.
+                    </div>
+                <div class="dropdown mt-3 scroller">
+                  <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    Navigator
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Home</a></li>
+                    <li><a class="dropdown-item" href="#about">About</a></li>
+                    <li><a class="dropdown-item" href="#contact">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+      
+      </div>
+
+      <div class="elec card  col-12 col-lg-4" id="elec">
+          <img src="../assets/male-electrician-works-switchboard-with-electrical-connecting-cable.jpg" alt="electrician">
+        <h1 class="card-title">
+          Electrician [Electricity Maintenance]
+        </h1>
+        <h3 class="card-subtitle">By BFS</h3>
+
+        <div class="card-body">
+          <p>Electricity is an essential component of any modern building. When electrical issues arise, it's crucial to have a reliable and experienced electrician you can count on. Our electrician services cover a wide range of solutions to keep your home or business powered and safe.
+          </p>
+          
+        </div>
+        <div class="card-text">
+          <h3><b>Our Electrician Services Include:</b></h3>
+
+<ul>
+<li><b>Electrical Repairs:</b> We can diagnose and fix a variety of electrical problems, from outlets not working to circuit breaker issues.</li>
+<li><b>Lighting Installation:</b> Whether you want to enhance the ambiance with new lighting fixtures or need security lighting, we've got you covered.</li>
+<li><b>Panel Upgrades:</b> Upgrading your electrical panel ensures it can handle your growing power needs and enhances safety.</li>
+<li><b>Wiring and Rewiring:</b> We offer wiring solutions for new construction and can rewire older properties to meet modern electrical standards.</li>
+<li><b>Emergency Services:</b> Electrical emergencies can happen at any time. We offer 24/7 emergency electrical repairs to ensure your safety.</li>
+</ul>
+
+        </div>
+
+<div class="card-footer">
+<blockquote>
+  Our licensed and experienced electricians use the latest tools and techniques to deliver top-quality service. We prioritize safety, efficiency, and your satisfaction.
+</blockquote>  
+</div>
+
+
+      </div>
+  </div>
+
+<div class="row">
+
+
+      <div class=" col-12 col-lg-4 plum card " id="plum">
+          <img src="../assets/service-maintenance-worker-repairing.jpg" alt="" class="card-img img-fluid">
+        <h1 class="card-title">
+          Plumbing Services
+        </h1>
+        <h3 class="card-subtitle">By BFS</h3>
+
+        <div class="card-body">
+          <p>Plumbing issues can disrupt your daily life and cause damage to your property. Our plumbing services are here to help you keep your water systems running smoothly, whether it's in your home or commercial space.
+          </p>
+          
+        </div>
+        <div class="card-text">
+          <h3><b>Our Plumbing Services Include:</b></h3>
+
+<ul>
+<li><b>Leak Detection and Repair:</b> We can diagnose and fix a variety of electrical problems, from outlets not working to circuit breaker issues.</li>
+<li><b>Drain Cleaning:</b> Whether you want to enhance the ambiance with new lighting fixtures or need security lighting, we've got you covered.</li>
+<li><b>ixture Installation:</b> Upgrading your electrical panel ensures it can handle your growing power needs and enhances safety.</li>
+<li><b>Water Heater Services:</b> We offer wiring solutions for new construction and can rewire older properties to meet modern electrical standards.</li>
+<li><b>Pipe Repairs and Replacements:</b> Electrical emergencies can happen at any time. We offer 24/7 emergency electrical repairs to ensure your safety.</li>
+</ul>
+
+        </div>
+
+<div class="card-footer">
+<blockquote>
+  Our skilled plumbers are dedicated to solving your plumbing problems efficiently and with minimal disruption.
+</blockquote>  
+</div>
+
+
+      </div>
+
+      <div class="whole  col-12 col-lg-4 card">
+          <img src="../assets/images (4).jpg" alt="" class="card-img img-fluid">
+        <h1 class="card-title">
+          Whole Building Maintenance
+        </h1>
+        <h3 class="card-subtitle">By BFS</h3>
+
+        <div class="card-body">
+          <p>Maintaining an entire building is a complex task that requires attention to various systems and components. Our whole building maintenance services are designed to keep your property in top condition, ensuring safety, efficiency, and longevity.
+          </p>
+          
+        </div>
+        <div class="card-text">
+          <h3><b>Our Whole Building Maintenance Services Include:</b></h3>
+
+<ul>
+<li><b>HVAC Maintenance:</b> Regular HVAC servicing ensures optimal climate control and energy efficiency.</li>
+<li><b>Electrical System Inspections:</b> We'll check your electrical systems to identify and fix potential issues before they become major problems.</li>
+<li><b>Plumbing System Checks:</b> Prevent plumbing disasters with regular inspections of pipes, fixtures, and water heaters.</li>
+<li><b>Building Exterior Maintenance:</b> From roofing and siding to windows and doors, we offer exterior maintenance services to protect your building from the elements.</li>
+<li><b>Emergency Response:</b> We're available 24/7 for any urgent maintenance needs that may arise.</li>
+</ul>
+
+        </div>
+
+<div class="card-footer">
+<blockquote>
+  Our comprehensive whole building maintenance services are tailored to your specific needs, helping you preserve the value and functionality of your property.
+</blockquote>  
+</div>
+
+
+      </div>
+
+      <div class="wait col-12 col-lg-4 card">
+          <img src="../assets/happy-waiter-serving-coffee-his-customers-while-wearing-protective-face-mask-cafe.jpg" alt="waiters">
+        <h1 class="card-title">
+          Waiters and Cafeteria Services
+        </h1>
+        <h3 class="card-subtitle">By BFS</h3>
+
+        <div class="card-body">
+          <p>  Our dedicated team of waiters and cafeteria staff is here to provide you with a seamless and enjoyable dining experience. Whether you're running a cafeteria, restaurant, or hosting a special event, our professional waiters are ready to serve you and your guests.
+          </p>
+          
+        </div>
+        <div class="card-text">
+          <h3><b>What We Offer:</b></h3>
+
+<ul>
+<li><b>Expert Waitstaff:</b> Our skilled and friendly waiters are trained to provide exceptional customer service. They are attentive, knowledgeable, and ready to assist you and your guests</li>
+<li><b>Cafeteria Service:</b> We offer cafeteria-style dining solutions for schools, corporate offices, and institutions. Our staff ensures that the cafeteria runs smoothly, from food replenishment to maintaining a clean and welcoming environment.</li>
+<li><b>Restaurant Service:</b> If you own or manage a restaurant, our waiters can enhance your patrons' dining experience. From taking orders to serving dishes with a smile, our staff understands the importance of excellent restaurant service.</li>
+<li><b>Event Catering:</b> Hosting a special event? Our waiters can assist with catering services, ensuring that your guests are served professionally and efficiently.</li>
+<li><b>Menu Knowledge:</b> Our staff is well-versed in your menu items and can offer recommendations, answer questions, and accommodate special dietary needs..</li>
+</ul></div>
+        <div class="card-footer">
+          <blockquote>
+            At Best Care Facility Services, we are committed to delivering top-notch waiters and cafeteria services. Contact us to discuss how we can tailor our services to meet your specific requirements and elevate your dining experience.
+          </blockquote>  
+        </div>
+       
+    </div>
+      </div> </div>
+  </div>
+
+
+    <footer class="footer" id="contact">
+      <div class="links">
+        <h2 class="footer-h2">
+          Quick Links 🔗 
+        </h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+        </ul>
+
+      </div>
+        
+        <hr>
+<div class="contact-info">
+  <h2 class="other-ref">Other Details</h2>
+        <p class="email">Email: <a href="mailto:bestcarefacilityservices@gmail.com">bestcarefacilityservices@gmail.com</a><span class="email-elab"></span></p>
+        <p class="contact-detail">📟 Phone Number: <a class="number" href="tel:+919092679853" >9092679853</a><img src="../assets/icons/whatsapp-icon-logo-svgrepo-com.svg" alt="whatsapp logo" width="20px" height="20px" style="margin-left: 10px; margin-right: 10px;"><a href="tel:+919092679983">9092679853</a></p>
+
+        <span style="display: flex; justify-content: space-evenly; align-items: center;"><img src="../assets/icons/facebook-color-svgrepo-com.svg" alt="" width="20px" height="20px">
+          <img src="../assets/icons/whatsapp-icon-logo-svgrepo-com.svg" alt="" width="20px" height="20px">
+          <img src="../assets/icons/linkedin-icon-2-logo-svgrepo-com.svg" alt="" width="20px" height="20px">
+        </span>
+    <br><br>
+        <h1 class="align-text-bottom justify-content-end">Thankyou 💕 </h1>
+</div>
+        </footer>
+
+      
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.to(
+    ".carousel" ,{
+        x:300,
+        y:50,
+        duration: 8,
+        start: "top 20%",
+        end: "top 60%",
+        marker: false,
+        scrub:3,
+        pin: true,
+        toggleActions: "restart, reverse, reverse, complete",
+        scrollTrigger: ".carousel"
+        
+    }
+)
+    </script>
+    <script src="https://kit.fontawesome.com/98794079f8.js" crossorigin="anonymous"></script>
+    <script src="./all.js"></script>
+    <script src="./anime.js"></script>
+    <script src="./bootstrap.bundle.js"></script>
+    <script src="./ScrollToPlugin.js"></script>
+    <script src="./ScrollTrigger.js"></script>
+</body>
+</html>
